@@ -1,0 +1,326 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam', sans-serif;
+  background: url(img/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 40px 110px 0; 
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; 
+}
+
+.navM ul{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.navM li{
+  display: inline-flex;
+}
+
+.navM a{
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(228, 39%, 23%);
+  display: block;
+  padding: 15px;
+}
+
+.navL{
+  flex: 1;
+  align-self: center;
+}
+
+.navM{
+  flex: 4;
+  display: block;
+}
+
+.navR{
+  flex: 1;
+  align-self: center;
+}
+
+.navR button{
+  border: none;
+  padding: 15px 30px;
+  border-radius: 1.25rem;
+  background-color: hsl(12, 88%, 59%);
+  box-shadow: 0px 10px 10px -10px hsl(12, 88%, 59%); 
+  font-weight: 500;
+}
+
+button a{
+  text-decoration: none;
+  color: hsl(0, 0%, 98%);
+}
+
+.sidebar{
+  flex: 1;
+  margin-top: 120px; 
+}
+.sidebar h1{
+  color: hsl(228, 39%, 23%);
+  font-size: 50px;
+  margin-bottom: 25px; 
+}
+
+.sidebar p , .description p{
+  color: hsl(227, 12%, 61%);
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.sidebar button{
+  border: none;
+  padding: 15px 30px;
+  border-radius: 1.25rem;
+  background-color: hsl(12, 88%, 59%);
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px -10px hsl(12, 88%, 59%); 
+  font-weight: 500;
+}
+.chart{
+  flex: 1;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.description{
+  flex: 1;
+  margin-top: 20px;
+}
+
+.description h2{
+  color: hsl(228, 39%, 23%);
+  font-size: 40px;
+}
+
+.aboutus{
+  flex: 1;
+  margin-top: 75px;
+}
+
+.btn-numb{
+  border: none;
+  padding: 5px 20px;
+  border-radius: 1.25rem;
+  background-color: hsl(12, 88%, 59%);
+  margin-top: 20px;
+  font-weight: 500;
+  color: hsl(0, 0%, 98%);
+}
+
+.middle{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.parag{
+  color: hsl(227, 12%, 61%);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.number{
+  flex: 1
+}
+.text{
+  flex: 4;
+}
+
+.heading-4{
+  margin: 0;
+  color: hsl(228, 39%, 23%);
+}
+
+h3{
+  text-align:  center;
+  color: hsl(228, 39%, 23%);
+  font-size: 35px;
+  margin: 80px 0;
+}
+.card{
+  background: hsl(0, 0%, 98%);
+  margin: 0 0.9rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.caption , .content{
+  text-align: center;
+}
+.caption p{
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: hsl(233, 12%, 13%);
+}
+.content p{
+  padding: 0 1.2rem;
+}
+
+.btn-middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+
+}
+
+.btn-middle button{
+  color: hsl(228, 39%, 23%);
+  margin: 20px 0;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 1.25rem;
+  background-color: hsl(12, 88%, 59%);
+  box-shadow: 0px 10px 10px -10px hsl(12, 88%, 59%); 
+  font-weight: 500;
+}
+
+.footer1{
+  height: 210px;
+  background-color: hsl(12, 88%, 59%);                                                                                                                                                                                                                                                                             
+}
+
+.footer2{
+  height: 240px;
+  background-color:  hsl(233, 12%, 13%);                                                                                                                                                                                                                                                                                   
+}
+
+.innerL{
+  flex: 1;
+}
+
+.innerM{
+  flex: 1;
+}
+
+.innerR{
+  flex: 1;
+}
+
+.container-left{
+  flex: 3;
+}
+
+.container-left p{
+  padding: 15px 110px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 98%);
+}
+
+.container-right{
+  flex: 1;
+}
+.container-right p{
+  padding: 15px 110px;
+  margin: 60px 0 ;
+}
+
+.container-right button{
+  border: none;
+  padding: 12px 33px;
+  border-radius: 1.25rem;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(12, 88%, 59%);
+  margin-top: 20px;
+  
+}
+
+.footerL{
+  flex: 1;
+}
+.footerM1{
+  flex: 1;
+}
+
+.footerM2{
+  flex: 1;
+}
+
+.footerR{
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+.wrapper{
+  flex-direction: column;
+}
+body{
+  padding: 40px 70px 40px 70px;
+}
+.sidebar{   
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.title{
+  text-align: center;
+}
+.sidebar p{
+  text-align: center;
+}
+.sidebar h1{
+  margin-top: 0;
+}
+.sidebar button{
+display:  none;
+}
+.chart{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.description h2{
+  margin-top: 0;
+}
+#parag{
+  text-align: center;
+}
+h3{
+  margin-top: 30px;
+}
+.card{
+  margin-bottom: 4.5rem;
+}
+.innerR{
+  margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+  #section-wrapper{
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px){
+  .sidebar h1, .description h2, h3{
+    font-size: 1.6rem;
+  }
+  .sidebar p , .description p, .parag{
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
